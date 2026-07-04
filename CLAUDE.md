@@ -2,6 +2,10 @@
 
 Investor-facing DEMO of the Unlock platform: features, personas, and belief logic are pre-scripted so a salesperson can walk an investor through a clean, deterministic onboarding journey. **This is a DEMO snapshot — the primary product code lives in the separate `unlock-platform` repo, not here.** Treat divergence from `unlock-platform` as intentional unless told otherwise.
 
+## Architecture
+
+Read [`docs/architecture/architecture.md`](docs/architecture/architecture.md) at session start before building anything — it's the Claude-Code-readable distillation of the Cloudworkz OS architecture every app repo builds towards. Log promotion-candidate building blocks (and consciously-skipped gaps) in [`BUILDING_BLOCKS_CATALOGUE.md`](BUILDING_BLOCKS_CATALOGUE.md) as you build. See [[Intelligence/decisions/2026-06-15-app-repo-architecture-bootstrap-V1]] for the convention.
+
 ## Directory map
 
 | Dir | What's in it |
